@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch server.js development",
-    "server": "node server.js production"
+    "dev": "node --env-file=.env --watch server.js ",
+    "server": "node server.js "
   },
   "keywords": [],
   "author": "",
