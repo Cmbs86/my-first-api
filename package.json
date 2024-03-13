@@ -5,8 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch server.js",
-    "server": "node server.js"
+    "dev": "node --watch server.js development",
+    "server": "node server.js production"
   },
   "keywords": [],
   "author": "",
